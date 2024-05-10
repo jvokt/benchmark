@@ -19,19 +19,22 @@ Positional Argument:
 Example:
 
 ```
+> docker build -t my-python-app .
+> run --rm my-python-app --qps=10 --total=10 https://www.google.com
+
 Starting benchmark with 10 queries at 10 QPS over 1 seconds
 ...
 Done with benchmark
-Total duration: 1.0195050239562988 seconds
-Average duration per query: 0.10195050239562989 seconds
+Total duration: 1.0906398296356201 seconds
+Average duration per query: 0.10906398296356201 seconds
 
 Request Duration Statistics
 ---------------------------
 Count: 10
-Min: 0.6287112236022949 seconds
-Max: 1.0130870342254639 seconds
-Avg: 0.7145693302154541 seconds
-Median: 0.6306490898132324 seconds
+Min: 1.0780112743377686 seconds
+Max: 1.0876076221466064 seconds
+Avg: 1.0837601184844972 seconds
+Median: 1.0834991931915283 seconds
 
 Response Status Code Statistics
 ---------------------------------
