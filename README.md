@@ -20,7 +20,7 @@ Example:
 
 ```
 > docker build -t my-python-app .
-> run --rm my-python-app --qps=10 --total=10 https://www.google.com
+> docker run --rm my-python-app --qps=10 --total=10 https://www.google.com
 
 Starting benchmark with 10 queries at 10 QPS over 1 seconds
 ...
